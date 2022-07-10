@@ -12,6 +12,7 @@ Car car;
 function setStru() public{
     // car.name = "Audi";
     // car.year = 2018;
+    // car = Car("Audi", 2018);
     car = Car({name:"Audi", year: 2018});
 }
 
